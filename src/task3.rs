@@ -32,8 +32,6 @@ impl IsTrue for Assert<true> {}
 */
 
 
-#[allow(incomplete_features)]
-#[feature(generic_const_exprs)]
 fn main() {
     check_size([0u8; 767]); // Размер: 767 байт
     check_size([0i32; 191]); // Размер: 191 * 4 = 764 байта
