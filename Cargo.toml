@@ -1,0 +1,6 @@
+[package]
+name = "_10_Generics_and_Traits_10_2_Const_Generics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
